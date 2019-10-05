@@ -1,4 +1,4 @@
-package Strings;
+package pl.app.azdrojewska.strings;
 
 /**
  * Created by Anna Zdrojewska on 2017-01-03.

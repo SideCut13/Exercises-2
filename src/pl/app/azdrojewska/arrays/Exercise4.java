@@ -1,4 +1,4 @@
-package Arrays;
+package pl.app.azdrojewska.arrays;
 
 /**
  * Created by Anna Zdrojewska on 2017-07-20.
