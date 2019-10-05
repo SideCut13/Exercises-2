@@ -12,14 +12,16 @@ import java.util.Scanner;
 
 public class Exercise5 {
 
+    private static final int SIZE = 2;
+
     //check if 3 points from user are collinear
     //if not user must enter them again
-    public static void collinearPoints() {
+    private static void collinearPoints() {
         //initializing 3 arrays with size 2
         //fot 2 coordinates
-        int[] a = new int[2];
-        int[] b = new int[2];
-        int[] c = new int[2];
+        int[] a = new int[SIZE];
+        int[] b = new int[SIZE];
+        int[] c = new int[SIZE];
 
         Scanner sc = new Scanner(System.in);
 
