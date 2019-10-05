@@ -42,7 +42,7 @@ public class Exercise3 {
     //get elements of an array from user
     private static double[] getArrayFromUser() {
         Scanner sc = new Scanner(System.in);
-        //size of an array
+        //initialize array
         double[] array = new double[UsefulFunctions.arraySize()];
         //get elements from user
         for (int i = 0; i < array.length; i++) {
