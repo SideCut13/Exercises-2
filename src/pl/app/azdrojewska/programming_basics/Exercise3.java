@@ -43,11 +43,9 @@ public class Exercise3 {
     private static double[] getArrayFromUser() {
         Scanner sc = new Scanner(System.in);
         //size of an array
-        int size = UsefulFunctions.arraySize();
-        //initialize array
-        double[] array = new double[size];
+        double[] array = new double[UsefulFunctions.arraySize()];
         //get elements from user
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < array.length; i++) {
             System.out.print("Enter " + i + " element: ");
             array[i] = sc.nextDouble();
         }
